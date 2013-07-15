@@ -20,10 +20,10 @@ if sys.platform == 'win32':
         http://code.google.com/p/phantomjs/downloads/list"""
 
     windows_defaults = {
-        'ProgramFiles': os.environ.get('ProgramFiles', 'C:\\Program Files'),
-        'Python27': os.environ.get('SystemDrive', 'C:') + '\\Python27',
-        'jsdoc': os.environ.get('SystemDrive', 'C:') + '\\jsdoc3',
-        'phantomjs': (os.environ.get('SystemDrive', 'C:') +
+        'ProgramFiles': os.environ.get('ProgramFiles', 'D:\\Program Files'),
+        'Python27': os.environ.get('SystemDrive', 'D:') + '\\Python27',
+        'jsdoc': os.environ.get('SystemDrive', 'D:') + '\\jsdoc3',
+        'phantomjs': (os.environ.get('SystemDrive', 'D:') +
                       '\\phantomjs-1.9.0-windows')
     }
 
